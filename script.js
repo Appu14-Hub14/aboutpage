@@ -1,5 +1,5 @@
 // Mobile Navigation Toggle
-document.querySelector('.hamburger').addEventListener('click', function() {
+ {
     const navLinks = document.querySelector('.nav-links');
     const authButtons = document.querySelector('.auth-buttons');
     
@@ -12,7 +12,7 @@ document.querySelector('.hamburger').addEventListener('click', function() {
     }
 });
 
-// Responsive adjustment for navigation
+// Res
 function handleResize() {
     const navLinks = document.querySelector('.nav-links');
     const authButtons = document.querySelector('.auth-buttons');
